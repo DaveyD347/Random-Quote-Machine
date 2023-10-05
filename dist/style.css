@@ -1,0 +1,46 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('https://www.gettyimages.com/photos/basketball-court') no-repeat center center fixed; 
+    background-size: cover;
+    color: white;
+}
+
+#quote-box {
+    background-color: rgba(0, 0, 0, 0.6); /* This makes the background semi-transparent */
+    padding: 30px;
+    border-radius: 10px;
+    width: 60%;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+#text {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#author {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+#new-quote, #tweet-quote {
+    background-color: #f39c12; /* Some basketball orange */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+#new-quote:hover, #tweet-quote:hover {
+    background-color: #e67e22; /* Darken the color a bit on hover */
+}
